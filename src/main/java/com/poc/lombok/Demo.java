@@ -2,8 +2,6 @@ package com.poc.lombok;
 
 import lombok.extern.java.Log;
 
-import java.util.logging.Level;
-
 @Log
 public class Demo {
 
@@ -26,5 +24,6 @@ public class Demo {
         log.info("diff 2nd time : " + (afterTime2 - afterTime1));
         log.info("value1 : " + value1);
         log.info("value2 : " + value2);
+
     }
 }
